@@ -42,24 +42,13 @@ body {
   padding: 19px;
 }
 h1 {
-  font-size: 9vmin;
+  font-size: 300%;
 }
 .lead-container {
   max-width: 900px;
   margin: 0 auto;
 }
-.social-links {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  position: fixed;
-}
-.email-link {
-  display: flex;
-  flex-direction: row;
-  transform: rotate(90deg);
-}
 footer {
-  background-color: #1f263b;
-  padding: 200px;
+  background-color: #020c1b;
+  padding: 100px;
 }
