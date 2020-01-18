@@ -2,7 +2,8 @@
   outline: none !important;
 }
 body {
-  background: #0a192f !important;
+  background-image: radial-gradient(circle, #0b1729, #0a192f);
+  background-attachment: fixed;
 }
 .nav-link:hover {
   color: #64ffda !important;
@@ -42,4 +43,18 @@ body {
 }
 h1 {
   font-size: 9vmin;
+}
+.lead-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.social-links {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: fixed;
+}
+footer {
+  background-color: #1f263b;
+  padding: 200px;
 }
