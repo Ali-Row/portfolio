@@ -1,5 +1,53 @@
-$background: rgb(10,25,47);
-$accent: rgb(100,255,218);
+$background: rgb(10,25,47) !important;
+$accent: rgb(100,255,218) !important;
+$headerColor: rgb(204,214,246) !important;
+$contentColor: rgb(136,146,176) !important;
+$spaceMono: 'Space Mono', monospace !important;
+$workSans: 'Work Sans', sans-serif !important;
+$workSansBold: 'Work Sans', sans-serif !important;
+$skew: skewX(-15deg);
+
+*:focus {
+    outline: none !important;
+}
 body {
     background: $background;
+}
+.nav-link:hover {
+    color: $accent;
+}
+.navbar-brand {
+    border: solid 2px;
+    transform: $skew;
+}
+.navbar-toggler {
+    border: none;  
+    transform: $skew;
+}
+.space-mono {
+    font-family: $spaceMono;
+}
+.work-sans {
+    font-family: $workSans;
+}
+.work-sans-bold {
+    font-family: $workSansBold;
+}
+.accent-color {
+    color: $accent;
+}
+.header-color {
+    color: $headerColor;
+}
+.content-color {
+    color: $contentColor;
+}
+.px-15 {
+    font-size: 15px;
+}
+.lead {
+    margin-top: 111px;
+}
+h1 {
+    font-size: 65px;
 }

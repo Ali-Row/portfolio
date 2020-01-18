@@ -1,3 +1,44 @@
+*:focus {
+  outline: none !important;
+}
 body {
-  background: #0a192f;
+  background: #0a192f !important;
+}
+.nav-link:hover {
+  color: #64ffda !important;
+}
+.navbar-brand {
+  border: solid 2px;
+  transform: skewX(-15deg);
+}
+.navbar-toggler {
+  border: none;
+  transform: skewX(-15deg);
+}
+.space-mono {
+  font-family: "Space Mono", monospace !important;
+}
+.work-sans {
+  font-family: "Work Sans", sans-serif !important;
+}
+.work-sans-bold {
+  font-family: "Work Sans", sans-serif !important;
+}
+.accent-color {
+  color: #64ffda !important;
+}
+.header-color {
+  color: #ccd6f6 !important;
+}
+.content-color {
+  color: #8892b0 !important;
+}
+.px-15 {
+  font-size: 15px;
+}
+.lead {
+  margin-top: 111px;
+}
+h1 {
+  font-size: 65px;
 }
