@@ -64,6 +64,11 @@ h1 {
     padding: 20px;
     position: fixed;
 }
+.email-link {
+    display: flex;
+    flex-direction: row;
+    transform: rotate(90deg);
+}
 footer {
     background-color: rgb(31, 38, 59);
     padding: 200px;
