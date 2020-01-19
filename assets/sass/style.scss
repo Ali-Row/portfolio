@@ -5,7 +5,8 @@ $headerColor: rgb(204,214,246) !important;
 $contentColor: rgb(136,146,176) !important;
 $spaceMono: 'Space Mono', monospace !important;
 $workSans: 'Work Sans', sans-serif !important;
-$workSansBold: 'Work Sans', sans-serif !important;
+$poppins: 'Poppins', sans-serif;
+
 $skew: skewX(-15deg);
 
 *:focus {
@@ -21,7 +22,7 @@ body {
 }
 nav {
     background: $background;
-    box-shadow: 0 6px 14px -8px rgb(0, 0, 0);
+    box-shadow: 0 6px 14px -8px rgb(5, 5, 5);
 }
 .navbar-brand {
     border: solid 2px;
@@ -37,8 +38,8 @@ nav {
 .work-sans {
     font-family: $workSans;
 }
-.work-sans-bold {
-    font-family: $workSansBold;
+.poppins{
+    font-family: $poppins;
 }
 .accent-color {
     color: $accent;
@@ -62,6 +63,10 @@ h1 {
 .lead-container {
     max-width: 900px;
     margin: 0 auto;
+}
+.plate {
+    border: solid 2px white;
+    padding: 125px;
 }
 // .social-links {
 //     display: flex;

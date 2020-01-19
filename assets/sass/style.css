@@ -11,7 +11,7 @@ body {
 }
 nav {
   background: #0a192f !important;
-  box-shadow: 0 6px 14px -8px #000;
+  box-shadow: 0 6px 14px -8px #050505;
 }
 .navbar-brand {
   border: solid 2px;
@@ -27,8 +27,8 @@ nav {
 .work-sans {
   font-family: "Work Sans", sans-serif !important;
 }
-.work-sans-bold {
-  font-family: "Work Sans", sans-serif !important;
+.poppins {
+  font-family: "Poppins", sans-serif;
 }
 .accent-color {
   color: #64ffda !important;
@@ -52,6 +52,10 @@ h1 {
 .lead-container {
   max-width: 900px;
   margin: 0 auto;
+}
+.plate {
+  border: solid 2px white;
+  padding: 125px;
 }
 footer {
   background-color: #020c1b;
