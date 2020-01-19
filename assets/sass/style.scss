@@ -12,11 +12,17 @@ $skew: skewX(-15deg);
     outline: none !important;
 }
 body {
-    background-image: $gradientBackground;
+    background: $background;
     background-attachment: fixed;
+    color: $headerColor;
 }
 .nav-link:hover {
     color: $accent;
+}
+nav {
+    background: $background;
+    box-shadow: 0 6px 14px -8px rgb(0, 0, 0);
+
 }
 .navbar-brand {
     border: solid 2px;
@@ -73,4 +79,5 @@ h1 {
 footer {
     background-color: rgb(2,12,27);
     padding: 100px;
+    margin-top: 1000px;
 }

@@ -17,24 +17,24 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark m-2">
-        <a class="navbar-brand space-mono accent-color px-3 rounded animated zoomIn delay-2s slower" href="#">A</a>
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark m-2" id="navbar-example2">
+        <a class="navbar-brand space-mono accent-color px-3 rounded animated zoomIn delay-2s slower" href="home">A</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse space-mono px-15" id="navbarNav">
           <ul class="navbar-nav space-mono">
             <li class="nav-item">
-                <a class="nav-link active px-3 header-color animated zoomInRight faster" href="#">About</a>
+                <a class="nav-link active px-3 header-color animated zoomInRight faster" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active px-3 header-color animated zoomInRight fast" href="#">Experience</a>
+              <a class="nav-link active px-3 header-color animated zoomInRight fast" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active px-3 header-color animated zoomInRight slow" href="#">Work</a>
+              <a class="nav-link active px-3 header-color animated zoomInRight slow" href="#work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active px-3 header-color animated zoomInRight slower" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              <a class="nav-link active px-3 header-color animated zoomInRight slower" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -46,7 +46,7 @@
             <h1 class="header-color animated fadeInUp delay-3s fast">Alistair Rowden.</h1>
             <h1 class="content-color animated fadeInUp delay-3s">I build things for the web.</h1>
 
-            <p class="content-color animated fadeInUp delay-3s text-justify mt-4 w-50">I'm a software engineer based in Mechanicsville, VA specializing in designing and building exceptional, high-quality websites and applications.</p>
+            <p class="content-color animated fadeInUp delay-3s w-75">I'm a software engineer based in Mechanicsville, VA specializing in designing and building exceptional, high-quality websites and applications.</p>
         </div>
       </div>
 
@@ -59,9 +59,23 @@
 
           </div>
           <div class="col-md-4">
-            
+
           </div>
         </div>
+      </div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+      <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+        <h4 id="about">About</h4>
+        <p>...</p>
+        <h4 id="work">Work</h4>
+        <p>...</p>
+        <h4 id="experience">Experience</h4>
+        <p>...</p>
+        <h4 id="contact">Contact</h4>
+        <p>...</p>
+        <h4 id="three">three</h4>
+        <p>...</p>
       </div>
 
       <!-- <div class="social-container">
@@ -80,7 +94,7 @@
               <a href="#" class="header-color py-3">deadlyhardware@gmail.com</a>
           </div> -->
 
-      <footer class="text-center text-light">
+      <footer class="text-center text-light" id="footer">
           Footer
       </footer>
 
