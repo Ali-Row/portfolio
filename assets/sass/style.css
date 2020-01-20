@@ -13,6 +13,10 @@ nav {
 h1 {
   font-size: 300%;
 }
+i {
+  font-size: 40px;
+  color: #64ffda !important;
+}
 .nav-link:hover {
   color: #64ffda !important;
 }
@@ -44,6 +48,15 @@ h1 {
 }
 .card {
   background: #0d1e33 !important;
+}
+.skew {
+  transform: skewX(-15deg);
+}
+.custom-btn {
+  background: #0d1e33 !important;
+  border-color: #64ffda !important;
+  color: #64ffda !important;
+  font-family: "Space Mono", monospace !important;
 }
 .px-15 {
   font-size: 15px;

@@ -23,6 +23,10 @@ nav {
 h1 {
     font-size: 300%;
 }
+i {
+    font-size: 40px;
+    color: $accent;
+}
 .nav-link:hover {
     color: $accent;
 }
@@ -54,6 +58,15 @@ h1 {
 }
 .card {
     background: $offsetBack;
+}
+.skew {
+    transform: $skew;
+}
+.custom-btn {
+    background: $offsetBack;
+    border-color: $accent;
+    color: $accent;
+    font-family: $spaceMono;
 }
 .px-15 {
     font-size: 15px;
