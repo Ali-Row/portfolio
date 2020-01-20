@@ -1,12 +1,11 @@
 $background: rgb(10,25,47) !important;
-$gradientBackground: radial-gradient(circle, rgb(11, 23, 41) , rgb(10,25,47));
+$offsetBack: rgb(13,30,51) !important;
 $accent: rgb(100,255,218) !important;
 $headerColor: rgb(204,214,246) !important;
 $contentColor: rgb(136,146,176) !important;
 $spaceMono: 'Space Mono', monospace !important;
 $workSans: 'Work Sans', sans-serif !important;
 $poppins: 'Poppins', sans-serif;
-
 $skew: skewX(-15deg);
 
 *:focus {
@@ -17,12 +16,15 @@ body {
     background-attachment: fixed;
     color: $headerColor;
 }
-.nav-link:hover {
-    color: $accent;
-}
 nav {
     background: $background;
     box-shadow: 0 6px 14px -8px rgb(5, 5, 5);
+}
+h1 {
+    font-size: 300%;
+}
+.nav-link:hover {
+    color: $accent;
 }
 .navbar-brand {
     border: solid 2px;
@@ -50,6 +52,9 @@ nav {
 .content-color {
     color: $contentColor;
 }
+.card {
+    background: $offsetBack;
+}
 .px-15 {
     font-size: 15px;
 }
@@ -57,16 +62,9 @@ nav {
     margin-top: 111px;
     padding: 19px;
 }
-h1 {
-    font-size: 300%;
-}
 .lead-container {
     max-width: 900px;
     margin: 0 auto;
-}
-.plate {
-    border: solid 2px white;
-    padding: 125px;
 }
 // .social-links {
 //     display: flex;
