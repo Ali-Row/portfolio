@@ -25,6 +25,9 @@ h1 {
 }
 i {
     font-size: 40px;
+    color: $contentColor;
+}
+i:hover {
     color: $accent;
 }
 .nav-link:hover {
@@ -64,9 +67,13 @@ i {
 }
 .custom-btn {
     background: $offsetBack;
+    border-color: $contentColor;
+    color: $contentColor;
+    font-family: $spaceMono;
+}
+.custom-btn:hover {
     border-color: $accent;
     color: $accent;
-    font-family: $spaceMono;
 }
 .px-15 {
     font-size: 15px;

@@ -15,6 +15,9 @@ h1 {
 }
 i {
   font-size: 40px;
+  color: #8892b0 !important;
+}
+i:hover {
   color: #64ffda !important;
 }
 .nav-link:hover {
@@ -54,9 +57,13 @@ i {
 }
 .custom-btn {
   background: #0d1e33 !important;
+  border-color: #8892b0 !important;
+  color: #8892b0 !important;
+  font-family: "Space Mono", monospace !important;
+}
+.custom-btn:hover {
   border-color: #64ffda !important;
   color: #64ffda !important;
-  font-family: "Space Mono", monospace !important;
 }
 .px-15 {
   font-size: 15px;
