@@ -31,6 +31,15 @@ i:hover {
   border: none;
   transform: skewX(-15deg);
 }
+.ul-style::before {
+  content: "\2022";
+  color: #64ffda !important;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  list-style-type: square;
+}
 .space-mono {
   font-family: "Space Mono", monospace !important;
 }
