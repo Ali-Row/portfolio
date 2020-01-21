@@ -21,9 +21,8 @@
 </head>
 <body>
 
-  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" id="home"></div>
   
-    <nav class="navbar navbar-expand-md sticky-top navbar-dark m-2" id="navbar-example2">
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark" id="navbar-example2">
         <a class="navbar-brand space-mono accent-color px-3 rounded animated zoomIn delay-2s slower" href="#home">A</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -49,6 +48,10 @@
         </div>
       </nav>
 
+
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0" id="home">
+
+
       <div class="lead-container">
         <div class="lead">
             <p class="px-15 accent-color space-mono animated fadeInUp delay-3s fast" id="intro">Hi there, my name is</p>
@@ -64,7 +67,7 @@
 
 
       <!-- About Me section -->
-      <div class="container" data-aos="flip-down" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+      <div class="container">
         <div class="row mx-auto lead px-18">
           <div class="col-md-6">
             <h3 class="poppins mb-5 header-color" id="about">About Me</h3>
@@ -104,12 +107,12 @@
 
 
 
-      <div class="container mx-auto" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+      <div class="container mx-auto">
         <h3 class="poppins mb-5 header-color" id="work" data-aos="flip-up">Some Projects I've Built</h3>
-        <div class="row">
+        <div class="row mx-auto">
           <div class="col-lg-4">
 
-              <div class="card mx-auto m-3 shadow" data-aos="flip-down" style="max-width: 28rem;">
+              <div class="card mx-auto shadow mb-4" data-aos="flip-down" style="max-width: 28rem;">
                 <img src="assets/images/Automate.png" class="card-img-top" alt="AutoMate">
                 <div class="card-body">
                   <h5 class="card-title header-color">AutoMate</h5>
@@ -124,7 +127,7 @@
           </div>
           <div class="col-lg-4">
 
-              <div class="card mx-auto m-3 shadow" data-aos="flip-down" style="max-width: 28rem;">
+              <div class="card mx-auto shadow mb-4" data-aos="flip-down" style="max-width: 28rem;">
                 <img src="assets/images/Kustom-Gifs.png" class="card-img-top" alt="Kustom-Gifs">
                 <div class="card-body">
                   <h5 class="card-title header-color">Kustom Gifs</h5>
@@ -139,7 +142,7 @@
           </div>
           <div class="col-lg-4">
 
-            <div class="card mx-auto m-3 shadow" data-aos="flip-down" style="max-width: 28rem;">
+            <div class="card mx-auto shadow mb-4" data-aos="flip-down" style="max-width: 28rem;">
                 <img src="assets/images/star-gem.jpg" class="card-img-top" alt="star-gem">
                 <div class="card-body">
                   <h5 class="card-title header-color">Star Gem</h5>
@@ -171,6 +174,8 @@
           <div class="email-link">
               <a href="#" class="header-color py-3">deadlyhardware@gmail.com</a>
           </div> -->
+
+</div>
 
       <footer class="text-center text-light" id="footer">
         <a href="#"><i class="fab fa-github px-4 smaller"></i></a>

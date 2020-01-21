@@ -8,6 +8,7 @@ $workSans: 'Work Sans', sans-serif !important;
 $poppins: 'Poppins', sans-serif;
 $skew: skewX(-15deg);
 
+
 *:focus {
     outline: none !important;
 }
@@ -15,6 +16,7 @@ body {
     background: $background;
     background-attachment: fixed;
     color: $headerColor;
+    overflow-x: hidden;
 }
 nav {
     background: $background;
