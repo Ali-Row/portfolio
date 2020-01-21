@@ -76,8 +76,11 @@ i:hover {
   max-width: 900px;
   margin: 0 auto;
 }
+.smaller {
+  font-size: 29px;
+}
 footer {
   background-color: #020c1b;
-  padding: 100px;
+  padding: 40px;
   margin-top: 1000px;
 }
