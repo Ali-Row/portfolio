@@ -21,7 +21,8 @@
 </head>
 <body>
 
-  
+    <div id="home"></div>
+
     <nav class="navbar navbar-expand-md sticky-top navbar-dark" id="navbar-example2">
         <a class="navbar-brand space-mono accent-color px-3 rounded animated zoomIn delay-2s slower" href="#home">A</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +50,7 @@
       </nav>
 
 
-<div data-spy="scroll" data-target="#navbar-example2" data-offset="0" id="home">
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
 
 
       <div class="lead-container">
@@ -65,12 +66,12 @@
 
       <br><br><br><br><br><br><br><br>
 
-
+      <div id="about"></div>
       <!-- About Me section -->
       <div class="container">
-        <div class="row mx-auto lead px-18">
+        <div class="row mx-auto lead px-18" data-aos="flip-down">
           <div class="col-md-6">
-            <h3 class="poppins mb-5 header-color" id="about">About Me</h3>
+            <h3 class="poppins mb-5 header-color">About Me</h3>
             <p class="content-color">Hello! I'm Alistair, a software engineer based in Mechanicsville, VA who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.</p>
             <p class="content-color">Here are a few technologies I've been working with recently:</p>
               <div class="content-color space-mono px-15 d-flex flex-row-reverse justify-content-around">
@@ -105,15 +106,15 @@
 
       <br><br><br><br><br><br><br><br>
 
-
-
+      <div id="work"></div>
+      <!-- Projects -->
       <div class="container mx-auto">
-        <h3 class="poppins mb-5 header-color" id="work" data-aos="flip-up">Some Projects I've Built</h3>
+        <h3 class="poppins mb-5 header-color" data-aos="flip-up">Some Projects I've Built</h3>
         <div class="row mx-auto">
           <div class="col-lg-4">
 
               <div class="card mx-auto shadow mb-4" data-aos="flip-down" style="max-width: 28rem;">
-                <img src="assets/images/Automate.png" class="card-img-top" alt="AutoMate">
+                <img src="assets/images/automate.png" class="card-img-top" alt="AutoMate">
                 <div class="card-body">
                   <h5 class="card-title header-color">AutoMate</h5>
                   <p class="card-text content-color">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -128,7 +129,7 @@
           <div class="col-lg-4">
 
               <div class="card mx-auto shadow mb-4" data-aos="flip-down" style="max-width: 28rem;">
-                <img src="assets/images/Kustom-Gifs.png" class="card-img-top" alt="Kustom-Gifs">
+                <img src="assets/images/kustom-gifs.png" class="card-img-top" alt="Kustom-Gifs">
                 <div class="card-body">
                   <h5 class="card-title header-color">Kustom Gifs</h5>
                   <p class="card-text content-color">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -146,6 +147,54 @@
                 <img src="assets/images/star-gem.jpg" class="card-img-top" alt="star-gem">
                 <div class="card-body">
                   <h5 class="card-title header-color">Star Gem</h5>
+                  <p class="card-text content-color">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex flex-row-reverse justify-content-around">
+                    <a href="#" class="btn btn-primary custom-btn">Demo</a>
+                    <a href=""><i class="fab fa-github"></i></a>
+                  </div>
+                </div> 
+              </div>
+        
+          </div>
+        </div>
+
+        <div class="row mx-auto">
+          <div class="col-lg-4">
+
+              <div class="card mx-auto shadow mb-4" data-aos="flip-down" style="max-width: 28rem;">
+                <img src="assets/images/trivia-game.jpg" class="card-img-top" alt="AutoMate">
+                <div class="card-body">
+                  <h5 class="card-title header-color">Trivia Game</h5>
+                  <p class="card-text content-color">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex flex-row-reverse justify-content-around">
+                    <a href="#" class="btn btn-primary custom-btn">Demo</a>
+                    <a href=""><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              
+          </div>
+          <div class="col-lg-4">
+
+              <div class="card mx-auto shadow mb-4" data-aos="flip-down" style="max-width: 28rem;">
+                <img src="assets/images/albumize.jpg" class="card-img-top" alt="Kustom-Gifs">
+                <div class="card-body">
+                  <h5 class="card-title header-color">Albumize</h5>
+                  <p class="card-text content-color">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex flex-row-reverse justify-content-around">
+                    <a href="#" class="btn btn-primary custom-btn">Demo</a>
+                    <a href=""><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+          <div class="col-lg-4">
+
+            <div class="card mx-auto shadow mb-4" data-aos="flip-down" style="max-width: 28rem;">
+                <img src="assets/images/hour-calculator.png" class="card-img-top" alt="star-gem">
+                <div class="card-body">
+                  <h5 class="card-title header-color">Hour Calculator</h5>
                   <p class="card-text content-color">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <div class="d-flex flex-row-reverse justify-content-around">
                     <a href="#" class="btn btn-primary custom-btn">Demo</a>
