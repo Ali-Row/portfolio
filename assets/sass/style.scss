@@ -8,8 +8,7 @@ $workSans: 'Work Sans', sans-serif !important;
 $poppins: 'Poppins', sans-serif;
 $skew: skewX(-15deg);
 
-
-body {
+body { 
     background: $background;
     background-attachment: fixed;
     color: $headerColor;
@@ -77,6 +76,9 @@ i:hover {
 .card {
     background: $offsetBack;
 }
+.card-text {
+    height: 135px !important;
+}
 .skew {
     transform: $skew;
 }
@@ -115,4 +117,31 @@ footer {
     background-color: rgb(2,12,27);
     padding: 40px;
     margin-top: 1000px;
+}
+
+@media screen and (max-width: 991px) {
+  .project-card {
+      height: 730px !important;
+  }
+  .query-center {
+      text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 415px) {
+    .project-card {
+        height: 650px !important;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .project-card {
+        height: 630px !important;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .project-card {
+        height: 560px !important;
+    }
 }

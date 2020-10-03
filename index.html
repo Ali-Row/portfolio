@@ -72,8 +72,8 @@
       <!-- About Me section -->
       <div class="container">
         <div class="row mx-auto lead px-18" data-aos="flip-down">
-          <div class="col-md-6">
-            <h3 class="poppins mb-5 header-color">About Me</h3>
+          <div class="col-md-12">
+            <h3 class="poppins mb-5 header-color query-center">About Me</h3>
             <p class="content-color">Hello! I'm Alistair, a software engineer based in Mechanicsville, VA who enjoys building slick, awesome and responsive websites. I develop exceptional pixel-perfect user interfaces connected to efficient and modern backends.</p>
             <p class="content-color">Here are a few technologies/programs I've been working with recently:</p>
               <div class="content-color space-mono px-15 d-flex flex-row-reverse justify-content-around">
@@ -98,9 +98,9 @@
 
           <div class="col-md-2"></div>
 
-          <div class="col-md-4 text-center">
+          <!-- <div class="col-md-4 text-center">
             <img src="assets/images/me.jpg" class="w-75 mt-5 rounded-pill shadow-xl" alt="Picture of me">
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -115,7 +115,7 @@
       <div class="container">
         <div class="row mx-auto lead px-18" data-aos="flip-down">
           <div class="col-md-12">
-            <h3 class="poppins mb-5 header-color">Experience</h3>
+            <h3 class="poppins mb-5 header-color query-center">Experience</h3>
 
               <div class="accordion" id="accordionExample">
                 <div class="card">
@@ -211,12 +211,12 @@
       <div class="container mx-auto">
         <div class="row mx-auto">
           <div class="col-lg-12">
-            <h3 class="poppins mb-5 header-color" data-aos="fade-up">Some Projects I've Built</h3>
+            <h3 class="poppins mb-5 header-color query-center" data-aos="fade-up">Some Projects I've Built</h3>
 
           </div>
           <div class="col-lg-4">
 
-              <div class="card mx-auto shadow mb-4" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
+              <div class="card mx-auto shadow mb-4 project-card" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
                 <img src="assets/images/automate.png" class="card-img-top" alt="AutoMate">
                 <div class="card-body">
                   <h5 class="card-title header-color">AutoMate</h5>
@@ -231,7 +231,7 @@
           </div>
           <div class="col-lg-4">
 
-              <div class="card mx-auto shadow mb-4" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
+              <div class="card mx-auto shadow mb-4 project-card" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
                 <img src="assets/images/kustom-gifs.png" class="card-img-top" alt="Kustom Gifs">
                 <div class="card-body">
                   <h5 class="card-title header-color">Kustom Gifs</h5>
@@ -246,7 +246,7 @@
           </div>
           <div class="col-lg-4">
 
-            <div class="card mx-auto shadow mb-4" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
+            <div class="card mx-auto shadow mb-4 project-card" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
                 <img src="assets/images/star-gem.jpg" class="card-img-top" alt="Star Gem">
                 <div class="card-body">
                   <h5 class="card-title header-color">Star Gem</h5>
@@ -264,7 +264,7 @@
         <div class="row mx-auto">
           <div class="col-lg-4">
 
-              <div class="card mx-auto shadow mb-4" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
+              <div class="card mx-auto shadow mb-4 project-card" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
                 <img src="assets/images/trivia-game.jpg" class="card-img-top" alt="Trivia Game">
                 <div class="card-body">
                   <h5 class="card-title header-color">Trivia Game</h5>
@@ -279,7 +279,7 @@
           </div>
           <div class="col-lg-4">
 
-              <div class="card mx-auto shadow mb-4" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
+              <div class="card mx-auto shadow mb-4 project-card" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
                 <img src="assets/images/albumize.jpg" class="card-img-top" alt="Albumize">
                 <div class="card-body">
                   <h5 class="card-title header-color">Albumize</h5>
@@ -294,7 +294,7 @@
           </div>
           <div class="col-lg-4">
 
-            <div class="card mx-auto shadow mb-4" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
+            <div class="card mx-auto shadow mb-4 project-card" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
                 <img src="assets/images/hour-calculator.png" class="card-img-top" alt="Hour Calculator">
                 <div class="card-body">
                   <h5 class="card-title header-color">Hour Calculator</h5>
@@ -308,6 +308,55 @@
         
           </div>
         </div>
+
+        <div class="row mx-auto">
+          <div class="col-lg-4">
+
+              <div class="card mx-auto shadow mb-4 project-card" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
+                <img src="assets/images/weathering.png" class="card-img-top" alt="Weathering">
+                <div class="card-body">
+                  <h5 class="card-title header-color">Weathering</h5>
+                  <p class="card-text content-color">Weathering is a simple easy to use weather app that uses the OpenWeatherMap API, MomentJs, JQuery & AnimateCSS.</p>
+                  <div class="d-flex flex-row-reverse justify-content-around">
+                    <a href="https://ali-row.github.io/Weathering/" target="_blank" class="btn btn-primary custom-btn">Demo</a>
+                    <a href="https://github.com/ali-row/Weathering" target="_blank"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              
+          </div>
+          <div class="col-lg-4">
+
+              <div class="card mx-auto shadow mb-4 project-card" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
+                <img src="assets/images/confirmator.png" class="card-img-top" alt="Confirmator">
+                <div class="card-body">
+                  <h5 class="card-title header-color">Confirmator</h5>
+                  <p class="card-text content-color">I built Confirmator to help simplify sending confirmation emails to students whilst working for Trilogy, it uses local storage for data persistence.</p>
+                  <div class="d-flex flex-row-reverse justify-content-around">
+                    <a href="https://ali-row.github.io/Confirmator/" target="_blank" class="btn btn-primary custom-btn">Demo</a>
+                    <a href="https://github.com/ali-row/Confirmator/" target="_blank"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+          <div class="col-lg-4">
+
+            <!-- <div class="card mx-auto shadow mb-4 project-card" data-aos="fade-up" style="max-width: 28rem; height: 38rem;">
+                <img src="assets/images/hour-calculator.png" class="card-img-top" alt="Hour Calculator">
+                <div class="card-body">
+                  <h5 class="card-title header-color">Hour Calculator</h5>
+                  <p class="card-text content-color">This is a quick app I made that keeps track of the hours at my TA job, I made this so I would no longer get confused about the amount of hours I had worked.</p>
+                  <div class="d-flex flex-row-reverse justify-content-around">
+                    <a href="https://ali-row.github.io/Hour-Calculator/" target="_blank" class="btn btn-primary custom-btn">Demo</a>
+                    <a href="https://github.com/ali-row/Hour-Calculator/" target="_blank"><i class="fab fa-github"></i></a>
+                  </div>
+                </div> 
+              </div> -->
+        
+          </div>
+        </div>
+
 
         
         <!-- <div class="row mt-5">
