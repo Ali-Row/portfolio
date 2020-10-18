@@ -15,9 +15,9 @@ body {
     overflow-x: hidden;
 }
 nav {
-    background: $background;
+    background: rgba(10, 25, 47, 0.975);
     box-shadow: 0 6px 14px -8px rgb(5, 5, 5);
-}
+} 
 h1 {
     font-size: 300%;
 }
@@ -27,6 +27,9 @@ i {
 }
 i:hover {
     color: $accent;
+}
+button:focus {
+    outline: none !important;
 }
 .nav-link:hover {
     color: $accent;

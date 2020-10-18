@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-  background: #0a192f !important;
+  background: rgba(10, 25, 47, 0.975);
   -webkit-box-shadow: 0 6px 14px -8px #050505;
           box-shadow: 0 6px 14px -8px #050505;
 }
@@ -22,6 +22,10 @@ i {
 
 i:hover {
   color: #64ffda !important;
+}
+
+button:focus {
+  outline: none !important;
 }
 
 .nav-link:hover {
