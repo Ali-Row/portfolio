@@ -31,6 +31,16 @@ i:hover {
 button:focus {
     outline: none !important;
 }
+.intro-element {
+    border: solid 2px;
+    font-size: 900% !important;
+    border-width: 10px !important;
+    padding: 30px 70px 30px 70px;
+    border-radius: 20px !important;
+    margin-top: 300px !important;
+    max-width: 20rem;
+    transition: .5s !important;
+}
 .nav-link:hover {
     color: $accent;
 }
@@ -64,7 +74,7 @@ button:focus {
 .work-sans {
     font-family: $workSans;
 }
-.poppins{
+.poppins {
     font-family: $poppins;
 }
 .accent-color {
@@ -78,9 +88,16 @@ button:focus {
 }
 .card {
     background: $offsetBack;
+    box-shadow: 0 6px 14px -8px rgb(5, 5, 5);
 }
 .card-text {
     height: 135px !important;
+}
+.project-card { 
+    transition: all 150ms ease-in-out !important; 
+}
+.project-card:hover { 
+    transform: scale(1.05) !important; 
 }
 .skew {
     transform: $skew;
@@ -94,6 +111,11 @@ button:focus {
 .custom-btn:hover {
     border-color: $accent;
     color: $accent;
+}
+.blur {
+    -webkit-filter: blur(25px) !important;
+    -moz-filter: blur(25px) !important;
+    filter: blur(25px) !important;
 }
 .px-15 {
     font-size: 15px;
@@ -121,11 +143,14 @@ footer {
     padding: 40px;
     margin-top: 1000px;
 }
-
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) { 
   .project-card {
       height: 730px !important;
+      transition: all 150ms ease-in-out !important; 
   }
+  .project-card:hover { 
+    transform: scale(1) !important; 
+}
   .query-center {
       text-align: center !important;
   }
@@ -146,5 +171,14 @@ footer {
 @media screen and (max-width: 321px) {
     .project-card {
         height: 560px !important;
+    }
+    .intro-element {
+        margin-top: 250px !important;
+        max-width: 12rem;
+        font-size: 450% !important;
+        border-width: 10px !important;
+        padding: 30px 70px 30px 70px;
+        border-radius: 20px !important;
+        margin-top: 300px !important;
     }
 }
