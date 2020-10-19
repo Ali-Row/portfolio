@@ -38,6 +38,8 @@ button:focus {
   max-width: 20rem;
   -webkit-transition: 0.5s !important;
   transition: 0.5s !important;
+  -webkit-box-shadow: 6px 6px 6px 1px rgba(5, 5, 5, 0.411);
+          box-shadow: 6px 6px 6px 1px rgba(5, 5, 5, 0.411);
 }
 
 .nav-link:hover {
