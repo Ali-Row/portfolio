@@ -50,6 +50,8 @@ button:focus {
   border: solid 2px;
   -webkit-transform: skewX(-15deg);
           transform: skewX(-15deg);
+  -webkit-transition: all 3s ease-in-out !important;
+  transition: all 3s ease-in-out !important;
 }
 
 .navbar-toggler {
