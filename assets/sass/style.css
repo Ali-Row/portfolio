@@ -223,6 +223,15 @@ footer {
   .project-card {
     height: 650px !important;
   }
+
+  .intro-element {
+    max-width: 12rem;
+    font-size: 450% !important;
+    border-width: 10px !important;
+    padding: 30px 70px 30px 70px;
+    border-radius: 20px !important;
+    margin-top: 200px !important;
+  }
 }
 @media screen and (max-width: 376px) {
   .project-card {
@@ -232,16 +241,6 @@ footer {
 @media screen and (max-width: 321px) {
   .project-card {
     height: 560px !important;
-  }
-
-  .intro-element {
-    margin-top: 250px !important;
-    max-width: 12rem;
-    font-size: 450% !important;
-    border-width: 10px !important;
-    padding: 30px 70px 30px 70px;
-    border-radius: 20px !important;
-    margin-top: 300px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
