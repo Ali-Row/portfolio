@@ -115,6 +115,7 @@ button:focus {
     padding: 300px;
     transform: skewY(-3deg);
     margin-top: 10rem; 
+    max-width: 100% !important;
 }
 .experience-wrapper {
     background-color: $darkColor;

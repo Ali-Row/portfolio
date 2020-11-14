@@ -140,6 +140,7 @@ button:focus {
   -webkit-transform: skewY(-3deg);
           transform: skewY(-3deg);
   margin-top: 10rem;
+  max-width: 100% !important;
 }
 
 .experience-wrapper {
