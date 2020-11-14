@@ -1,7 +1,7 @@
 $background: rgb(10,25,47) !important;
 $offsetBack: rgb(13,30,51) !important;
 $accent: rgb(100,255,218) !important;
-$headerColor: rgb(204,214,246) !important;
+$headerColor: rgb(204,214,246) !important; 
 $contentColor: rgb(136,146,176) !important;
 $spaceMono: 'Space Mono', monospace !important;
 $workSans: 'Work Sans', sans-serif !important;
@@ -68,6 +68,12 @@ button:focus {
     left: -1em;
     top: 0.9em;
     position: relative;
+}
+.half-opacity {
+    opacity: 0.5 !important;
+}
+.footer-img {
+    transform: rotate(180deg) !important;
 }
 .space-mono {
     font-family: $spaceMono;
@@ -139,10 +145,12 @@ button:focus {
     max-width: 1100px;
     margin: 0 auto;
 }
+.dark {
+    background: rgb(2,12,27);
+}
 footer {
-    background-color: rgb(2,12,27);
+    background: rgb(2,12,27);
     padding: 40px;
-    margin-top: 1000px;
 }
 @media screen and (max-width: 991px) { 
   .project-card {

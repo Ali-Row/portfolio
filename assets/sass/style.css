@@ -76,6 +76,15 @@ button:focus {
   position: relative;
 }
 
+.half-opacity {
+  opacity: 0.5 !important;
+}
+
+.footer-img {
+  -webkit-transform: rotate(180deg) !important;
+          transform: rotate(180deg) !important;
+}
+
 .space-mono {
   font-family: "Space Mono", monospace !important;
 }
@@ -170,10 +179,13 @@ button:focus {
   margin: 0 auto;
 }
 
+.dark {
+  background: #020c1b;
+}
+
 footer {
-  background-color: #020c1b;
+  background: #020c1b;
   padding: 40px;
-  margin-top: 1000px;
 }
 
 @media screen and (max-width: 991px) {

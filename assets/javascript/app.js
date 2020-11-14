@@ -1,10 +1,12 @@
 $(document).ready(() => {
-    AOS.init();
+  AOS.init();
   $(".body-transition").hide();
 
   let renderAnimation = () => {
     intro = $("<h1>");
-    intro.addClass("space-mono accent-color px-18 skew rounded animated zoomInUp slow intro-element");
+    intro.addClass(
+      "space-mono accent-color px-18 skew rounded animated zoomInUp slow intro-element"
+    );
     intro.text("A");
     let container = $("<div>");
     container.addClass("lead-container");
@@ -23,11 +25,29 @@ $(document).ready(() => {
     intro.addClass("animated zoomOut blur");
   };
 
+  const renderAutoTyper = () => {
+    const displayBio = $("#display-bio");
+    const words = "I build things for the web.".split("");
+    let i = 0;
+
+    let bioInterval = setInterval(() => {
+      const letters = words[i];
+      if (!letters) {
+        clearInterval(bioInterval);
+      } else {
+        displayBio.append(letters);
+        i++;
+      }
+    }, 100);
+  };
+
   // Renders the portfolio, this runs after the intro animation is over
   let renderPortfolio = () => {
     $(".intro-element").hide();
     $(".body-transition").show();
+    showAutoTyper = setTimeout(renderAutoTyper, 2300);
   };
+
   // These setTimeouts call the addZoomOut function first then finally the renderPortfolio function
   addZoomOutClass = setTimeout(addZoomOut, 3000);
   show = setTimeout(renderPortfolio, 4300);
