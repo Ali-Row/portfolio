@@ -1,5 +1,6 @@
 $background: rgb(10,25,47) !important;
 $offsetBack: rgb(13,30,51) !important;
+$darkColor: rgb(2,12,27) !important;
 $accent: rgb(100,255,218) !important;
 $headerColor: rgb(204,214,246) !important; 
 $contentColor: rgb(136,146,176) !important;
@@ -108,6 +109,18 @@ button:focus {
 }
 .skew {
     transform: $skew;
+}
+.break-div {
+    background-color: $darkColor;
+    padding: 300px;
+    transform: skewY(-3deg);
+    margin-top: 10rem; 
+}
+.experience-wrapper {
+    background-color: $darkColor;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 10rem; 
 }
 .custom-btn {
     background: $offsetBack;
