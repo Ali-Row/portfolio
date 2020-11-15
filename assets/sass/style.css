@@ -1,5 +1,6 @@
-html, body {
-  max-width: 100%;
+html,
+body {
+  max-width: 100% !important;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 }
 
 nav {
-  background: rgba(10, 25, 47, 0.975);
+  background: rgba(6, 6, 11, 0.975);
   -webkit-box-shadow: 0 6px 14px -8px #050505;
           box-shadow: 0 6px 14px -8px #050505;
 }
@@ -87,6 +88,7 @@ button:focus {
 .footer-img {
   -webkit-transform: rotate(180deg) !important;
           transform: rotate(180deg) !important;
+  width: 100% !important;
 }
 
 .space-mono {
@@ -139,7 +141,7 @@ button:focus {
 }
 
 .experience-wrapper {
-  background-color: #020c1b !important;
+  background-color: #06060b !important;
   padding-top: 150px;
   padding-bottom: 150px;
   margin-top: 10rem;
@@ -202,14 +204,21 @@ button:focus {
 }
 
 .dark {
-  background: #020c1b;
+  background: #06060b !important;
 }
 
 footer {
-  background: #020c1b;
+  background: #06060b !important;
   padding: 40px;
 }
 
+@media screen and (max-width: 1306px) {
+  html,
+body {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+}
 @media screen and (max-width: 991px) {
   .project-card {
     height: 730px !important;
@@ -227,7 +236,7 @@ footer {
   }
 
   .macbook-code {
-    height: 1000px !important;
+    height: 600px !important;
   }
 }
 @media screen and (max-width: 415px) {
@@ -245,16 +254,12 @@ footer {
   }
 
   .macbook-code {
-    height: 400px !important;
+    height: 380px !important;
   }
 }
 @media screen and (max-width: 376px) {
   .project-card {
     height: 630px !important;
-  }
-
-  .macbook-code {
-    height: 380px !important;
   }
 }
 @media screen and (max-width: 321px) {

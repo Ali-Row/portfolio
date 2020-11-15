@@ -5,7 +5,7 @@ $(document).ready(() => {
   let renderAnimation = () => {
     intro = $("<h1>");
     intro.addClass(
-      "space-mono accent-color px-18 skew rounded animated zoomInUp slow intro-element"
+      "space-mono accent-color px-18 skew rounded animated zoomIn slow intro-element"
     );
     intro.text("A");
     let container = $("<div>");

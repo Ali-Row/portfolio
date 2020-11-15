@@ -1,224 +1,226 @@
-$background: rgb(10,25,47) !important;
-$offsetBack: rgb(13,30,51) !important;
-$darkColor: rgb(2,12,27) !important;
-$accent: rgb(100,255,218) !important;
-$headerColor: rgb(204,214,246) !important; 
-$contentColor: rgb(136,146,176) !important;
-$spaceMono: 'Space Mono', monospace !important;
-$workSans: 'Work Sans', sans-serif !important;
-$poppins: 'Poppins', sans-serif;
+$background: rgb(10, 25, 47) !important;
+$offsetBack: rgb(13, 30, 51) !important;
+$darkColor: rgb(6, 6, 11) !important;
+$accent: rgb(100, 255, 218) !important;
+$headerColor: rgb(204, 214, 246) !important;
+$contentColor: rgb(136, 146, 176) !important;
+$spaceMono: "Space Mono", monospace !important;
+$workSans: "Work Sans", sans-serif !important;
+$poppins: "Poppins", sans-serif;
 $skew: skewX(-15deg);
 
-html, body {
-    max-width: 100%;
+html,
+body {
+  max-width: 100% !important;
 }
-body { 
-    background: $background;
-    background-attachment: fixed;
-    color: $headerColor;
-    margin: 0px;
+body {
+  background: $background;
+  background-attachment: fixed;
+  color: $headerColor;
+  margin: 0px;
 }
 nav {
-    background: rgba(10, 25, 47, 0.975);
-    box-shadow: 0 6px 14px -8px rgb(5, 5, 5);
-} 
+  background: rgba(6, 6, 11, 0.975);
+  box-shadow: 0 6px 14px -8px rgb(5, 5, 5);
+}
 h1 {
-    font-size: 300%;
+  font-size: 300%;
 }
 i {
-    font-size: 40px;
-    color: $contentColor;
+  font-size: 40px;
+  color: $contentColor;
 }
 i:hover {
-    color: $accent;
+  color: $accent;
 }
 button:focus {
-    outline: none !important;
+  outline: none !important;
 }
 .intro-element {
-    border: solid 2px;
-    font-size: 900% !important;
-    border-width: 10px !important;
-    padding: 30px 70px 30px 70px;
-    border-radius: 20px !important;
-    margin-top: 300px !important;
-    max-width: 20rem;
-    transition: .5s !important;
-    box-shadow: 6px 6px 6px 1px rgba(5, 5, 5, 0.411);
+  border: solid 2px;
+  font-size: 900% !important;
+  border-width: 10px !important;
+  padding: 30px 70px 30px 70px;
+  border-radius: 20px !important;
+  margin-top: 300px !important;
+  max-width: 20rem;
+  transition: 0.5s !important;
+  box-shadow: 6px 6px 6px 1px rgba(5, 5, 5, 0.411);
 }
 .nav-link:hover {
-    color: $accent;
+  color: $accent;
 }
 .navbar-brand {
-    border: solid 2px;
-    transform: $skew;
+  border: solid 2px;
+  transform: $skew;
 }
 .navbar-toggler {
-    border: none;  
-    transform: $skew;
+  border: none;
+  transform: $skew;
 }
 .ul-style {
-    margin: 0.25em;
-    list-style: none;
+  margin: 0.25em;
+  list-style: none;
 }
 .ul-style::before {
-    content: "";
-    border-color: transparent $accent;
-    border-style: solid;
-    border-width: 0.35em 0 0.35em 0.45em;
-    display: block;
-    height: 0;
-    width: 0;
-    left: -1em;
-    top: 0.9em;
-    position: relative;
+  content: "";
+  border-color: transparent $accent;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
 }
 .half-opacity {
-    opacity: 0.5 !important;
+  opacity: 0.5 !important;
 }
 .footer-img {
-    transform: rotate(180deg) !important;
+  transform: rotate(180deg) !important;
+  width: 100% !important;
 }
 .space-mono {
-    font-family: $spaceMono;
+  font-family: $spaceMono;
 }
 .work-sans {
-    font-family: $workSans;
+  font-family: $workSans;
 }
 .poppins {
-    font-family: $poppins;
+  font-family: $poppins;
 }
 .accent-color {
-    color: $accent;
+  color: $accent;
 }
 .header-color {
-    color: $headerColor;
+  color: $headerColor;
 }
 .content-color {
-    color: $contentColor;
+  color: $contentColor;
 }
 .card {
-    background: $offsetBack;
-    box-shadow: 0 6px 14px -8px rgb(5, 5, 5);
+  background: $offsetBack;
+  box-shadow: 0 6px 14px -8px rgb(5, 5, 5);
 }
 .card-text {
-    height: 135px !important;
+  height: 135px !important;
 }
-.project-card { 
-    transition: all 150ms ease-in-out !important; 
+.project-card {
+  transition: all 150ms ease-in-out !important;
 }
-.project-card:hover { 
-    transform: scale(1.02) !important; 
+.project-card:hover {
+  transform: scale(1.02) !important;
 }
 .skew {
-    transform: $skew;
+  transform: $skew;
 }
 .experience-wrapper {
-    background-color: $darkColor;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    margin-top: 10rem; 
-    transform: skewY(-3deg) !important;
+  background-color: $darkColor;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-top: 10rem;
+  transform: skewY(-3deg) !important;
 }
 .no-skew {
-    transform: skewY(3deg) !important;
+  transform: skewY(3deg) !important;
 }
 .custom-btn {
-    background: $offsetBack;
-    border-color: $contentColor;
-    color: $contentColor;
-    font-family: $spaceMono;
+  background: $offsetBack;
+  border-color: $contentColor;
+  color: $contentColor;
+  font-family: $spaceMono;
 }
 .custom-btn:hover {
-    border-color: $accent;
-    color: $accent;
+  border-color: $accent;
+  color: $accent;
 }
 .blur {
-    -webkit-filter: blur(25px) !important;
-    -moz-filter: blur(25px) !important;
-    filter: blur(25px) !important;
+  -webkit-filter: blur(25px) !important;
+  -moz-filter: blur(25px) !important;
+  filter: blur(25px) !important;
 }
 .px-15 {
-    font-size: 15px;
+  font-size: 15px;
 }
 .px-18 {
-    font-size: 18px;
+  font-size: 18px;
 }
 .lead {
-    margin-top: 111px;
-    padding: 19px;
+  margin-top: 111px;
+  padding: 19px;
 }
 .lead-container {
-    max-width: 900px;
-    margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto;
 }
 .big-font {
-    font-size: 5vmax;
+  font-size: 5vmax;
 }
 .smaller {
-    font-size: 29px;
+  font-size: 29px;
 }
 .wrapper {
-    max-width: 1100px;
-    margin: 0 auto;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .dark {
-    background: rgb(2,12,27);
+  background:$darkColor;
 }
 footer {
-    background: rgb(2,12,27);
-    padding: 40px;
+  background:$darkColor;
+  padding: 40px;
 }
 
 // Media queries for a responsive layout
-@media screen and (max-width: 991px) { 
-  .project-card {
-      height: 730px !important;
-      transition: all 150ms ease-in-out !important; 
+@media screen and (max-width: 1306px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
   }
-  .project-card:hover { 
-    transform: scale(1) !important; 
 }
-  .query-center {
-      text-align: center !important;
+@media screen and (max-width: 991px) {
+  .project-card {
+    height: 730px !important;
+    transition: all 150ms ease-in-out !important;
   }
-
+  .project-card:hover {
+    transform: scale(1) !important;
+  }
+  .query-center {
+    text-align: center !important;
+  }
   .macbook-code {
-    height: 1000px !important;
+    height: 600px !important;
   }
 }
 
 @media screen and (max-width: 415px) {
-    .project-card {
-        height: 650px !important;
-    }
-    .intro-element {
-        max-width: 12rem;
-        font-size: 450% !important;
-        border-width: 10px !important;
-        padding: 30px 70px 30px 70px;
-        border-radius: 20px !important;
-        margin-top: 200px !important;
-    }
-
-    .macbook-code {
-        height: 400px !important;
-    }
+  .project-card {
+    height: 650px !important;
+  }
+  .intro-element {
+    max-width: 12rem;
+    font-size: 450% !important;
+    border-width: 10px !important;
+    padding: 30px 70px 30px 70px;
+    border-radius: 20px !important;
+    margin-top: 200px !important;
+  }
+  .macbook-code {
+    height: 380px !important;
+  }
 }
 
 @media screen and (max-width: 376px) {
-    .project-card {
-        height: 630px !important;
-    }
-    .macbook-code {
-        height: 380px !important;
-    }
-   
+  .project-card {
+    height: 630px !important;
+  }
 }
 
 @media screen and (max-width: 321px) {
-    .project-card {
-        height: 560px !important;
-    }
-    
+  .project-card {
+    height: 560px !important;
+  }
 }
