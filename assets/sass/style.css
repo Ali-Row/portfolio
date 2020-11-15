@@ -212,6 +212,24 @@ footer {
   padding: 40px;
 }
 
+@media screen and (max-width: 2400px) {
+  .big-font {
+    font-size: 3.5vmax;
+  }
+
+  .macbook-code {
+    height: 1800px;
+  }
+}
+@media screen and (max-width: 1900px) {
+  .big-font {
+    font-size: 4vmax;
+  }
+
+  .macbook-code {
+    height: 1200px;
+  }
+}
 @media screen and (max-width: 1306px) {
   html,
 body {
@@ -239,6 +257,11 @@ body {
     height: 600px !important;
   }
 }
+@media screen and (max-width: 768px) {
+  .big-font {
+    font-size: 7vmax;
+  }
+}
 @media screen and (max-width: 415px) {
   .project-card {
     height: 650px !important;
@@ -262,7 +285,16 @@ body {
     height: 630px !important;
   }
 }
+@media screen and (max-width: 330px) {
+  .big-font {
+    font-size: 6vmax;
+  }
+}
 @media screen and (max-width: 321px) {
+  .big-font {
+    font-size: 5vmax;
+  }
+
   .project-card {
     height: 560px !important;
   }
