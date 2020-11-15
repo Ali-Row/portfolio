@@ -121,6 +121,14 @@ button:focus {
   padding-bottom: 150px;
   margin-top: 10rem;
   transform: skewY(-3deg) !important;
+  border-top: solid 5px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to right,
+    rgb(100, 255, 218),
+    rgb(58, 18, 151)
+  );
+  box-shadow: 0 6px 14px -8px rgb(5, 5, 5);
 }
 .no-skew {
   transform: skewY(3deg) !important;
@@ -170,15 +178,27 @@ button:focus {
 footer {
   background: $darkColor;
   padding: 40px;
+  border-top: solid 8px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to right,
+    rgb(100, 255, 218),
+    rgb(58, 18, 151)
+  );
 }
 
 // Media queries for a responsive layout
-@media screen and (max-width: 2400px) {
+@media screen and (max-width: 2900px) {
   .big-font {
-    font-size: 3.5vmax;
+    font-size: 2.5vmax;
   }
   .macbook-code {
     height: 1800px;
+  }
+}
+@media screen and (max-width: 2400px) {
+  .big-font {
+    font-size: 3vmax;
   }
 }
 
@@ -221,9 +241,9 @@ footer {
 }
 
 @media screen and (max-width: 417px) {
-    .big-font {
-        font-size: 5vmax;
-      }
+  .big-font {
+    font-size: 5vmax;
+  }
   .project-card {
     height: 650px !important;
   }
@@ -247,9 +267,9 @@ footer {
 }
 
 @media screen and (max-width: 350px) {
-    .big-font {
-        font-size: 4vmax;
-      }
+  .big-font {
+    font-size: 4vmax;
+  }
 }
 
 @media screen and (max-width: 321px) {
