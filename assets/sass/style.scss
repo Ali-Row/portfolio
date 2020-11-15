@@ -216,11 +216,14 @@ footer {
 
 @media screen and (max-width: 768px) {
   .big-font {
-    font-size: 7vmax;
+    font-size: 6vmax;
   }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 417px) {
+    .big-font {
+        font-size: 5vmax;
+      }
   .project-card {
     height: 650px !important;
   }
@@ -243,17 +246,13 @@ footer {
   }
 }
 
-@media screen and (max-width: 330px) {
-  .big-font {
-    font-size: 6vmax;
-  }
+@media screen and (max-width: 350px) {
+    .big-font {
+        font-size: 4vmax;
+      }
 }
 
 @media screen and (max-width: 321px) {
-  .big-font {
-    font-size: 5vmax;
-  }
-
   .project-card {
     height: 560px !important;
   }
