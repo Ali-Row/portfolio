@@ -111,18 +111,15 @@ button:focus {
 .skew {
     transform: $skew;
 }
-.break-div {
-    background-color: $darkColor;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    transform: skewY(-3deg);
-    margin-top: 10rem; 
-}
 .experience-wrapper {
     background-color: $darkColor;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     margin-top: 10rem; 
+    transform: skewY(-3deg) !important;
+}
+.no-skew {
+    transform: skewY(3deg) !important;
 }
 .custom-btn {
     background: $offsetBack;
@@ -153,6 +150,9 @@ button:focus {
     max-width: 900px;
     margin: 0 auto;
 }
+.big-font {
+    font-size: 5vmax;
+}
 .smaller {
     font-size: 29px;
 }
@@ -180,6 +180,10 @@ footer {
   .query-center {
       text-align: center !important;
   }
+
+  .macbook-code {
+    height: 500px !important;
+  }
 }
 
 @media screen and (max-width: 415px) {
@@ -194,12 +198,20 @@ footer {
         border-radius: 20px !important;
         margin-top: 200px !important;
     }
+
+    .macbook-code {
+        height: 400px !important;
+    }
 }
 
 @media screen and (max-width: 376px) {
     .project-card {
         height: 630px !important;
     }
+    .macbook-code {
+        height: 380px !important;
+    }
+   
 }
 
 @media screen and (max-width: 321px) {
