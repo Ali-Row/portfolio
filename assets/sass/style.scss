@@ -9,11 +9,13 @@ $workSans: 'Work Sans', sans-serif !important;
 $poppins: 'Poppins', sans-serif;
 $skew: skewX(-15deg);
 
+html, body {
+    max-width: 100%;
+}
 body { 
     background: $background;
     background-attachment: fixed;
     color: $headerColor;
-    overflow-x: hidden;
     margin: 0px;
 }
 nav {
