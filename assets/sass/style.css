@@ -206,7 +206,7 @@ button:focus {
 }
 
 .smaller {
-  font-size: 29px;
+  font-size: 35px;
 }
 
 .wrapper {
@@ -311,6 +311,10 @@ body {
 @media screen and (max-width: 350px) {
   .big-font {
     font-size: 4vmax;
+  }
+
+  .smaller {
+    font-size: 29px;
   }
 }
 @media screen and (max-width: 321px) {

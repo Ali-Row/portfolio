@@ -170,7 +170,7 @@ button:focus {
   font-size: 5vmax;
 }
 .smaller {
-  font-size: 29px;
+  font-size: 35px;
 }
 .wrapper {
   max-width: 1100px;
@@ -273,6 +273,9 @@ footer {
 @media screen and (max-width: 350px) {
   .big-font {
     font-size: 4vmax;
+  }
+  .smaller {
+    font-size: 29px;
   }
 }
 
