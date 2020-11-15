@@ -3,6 +3,7 @@ body {
   background-attachment: fixed;
   color: #ccd6f6 !important;
   overflow-x: hidden;
+  margin: 0px;
 }
 
 nav {
@@ -136,11 +137,11 @@ button:focus {
 
 .break-div {
   background-color: #020c1b !important;
-  padding: 300px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   -webkit-transform: skewY(-3deg);
           transform: skewY(-3deg);
   margin-top: 10rem;
-  max-width: 100% !important;
 }
 
 .experience-wrapper {
