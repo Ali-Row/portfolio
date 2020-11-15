@@ -42,7 +42,7 @@ $(document).ready(() => {
   };
 
   // Renders the portfolio, this runs after the intro animation is over
-  let renderPortfolio = () => {
+  const renderPortfolio = () => {
     $(".intro-element").hide();
     $(".body-transition").show();
     showAutoTyper = setTimeout(renderAutoTyper, 2300);
