@@ -51,4 +51,11 @@ $(document).ready(() => {
   // These setTimeouts call the addZoomOut function first then finally the renderPortfolio function
   addZoomOutClass = setTimeout(addZoomOut, 3000);
   show = setTimeout(renderPortfolio, 4300);
+
+
+    // Toggle class on navbar when scrolling
+    $(document).scroll(function () {
+      let nav = $(".navbar");
+      nav.toggleClass('scrolled', $(this).scrollTop() > nav.height() * 19);
+    });
 });

@@ -63,6 +63,12 @@ button:focus {
           transform: skewX(-15deg);
 }
 
+.navbar.scrolled {
+  background-color: rgba(10, 25, 47, 0.985) !important;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
 .ul-style {
   margin: 0.25em;
   list-style: none;
