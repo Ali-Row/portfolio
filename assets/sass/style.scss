@@ -125,13 +125,13 @@ button:focus {
   padding-bottom: 150px;
   margin-top: 10rem;
   transform: skewY(-3deg) !important;
-  border-top: solid 5px;
   border-image-slice: 1;
   border-image-source: linear-gradient(
     to right,
     rgb(100, 255, 218),
     rgb(58, 18, 151)
   );
+  border-top: solid 5px;
   box-shadow: 0 6px 14px -8px rgb(5, 5, 5);
 }
 .no-skew {
@@ -182,13 +182,13 @@ button:focus {
 footer {
   background: $darkColor;
   padding: 40px;
-  border-top: solid 8px;
   border-image-slice: 1;
   border-image-source: linear-gradient(
     to right,
     rgb(100, 255, 218),
     rgb(58, 18, 151)
   );
+  border-top: solid 8px;
 }
 
 // Media queries for a responsive layout
