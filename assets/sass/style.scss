@@ -242,6 +242,10 @@ footer {
   .big-font {
     font-size: 6vmax;
   }
+
+  .experience-wrapper, footer {
+    border: none !important;
+  }
 }
 
 @media screen and (max-width: 417px) {
