@@ -218,6 +218,10 @@ button:focus {
   background: #06060b !important;
 }
 
+.border-rounded {
+  border-radius: 75px !important;
+}
+
 footer {
   background: #06060b !important;
   padding: 40px;

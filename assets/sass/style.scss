@@ -179,6 +179,9 @@ button:focus {
 .dark {
   background: $darkColor;
 }
+.border-rounded {
+  border-radius: 75px !important;
+}
 footer {
   background: $darkColor;
   padding: 40px;
