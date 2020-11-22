@@ -285,7 +285,8 @@ body {
     font-size: 6vmax;
   }
 
-  .experience-wrapper, footer {
+  .experience-wrapper,
+footer {
     border: none !important;
   }
 }
