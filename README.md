@@ -1,7 +1,7 @@
 # Alistair Rowden's Dev | Portfolio
-This is my new developer portfolio, this is the third revision of my portfolio!
+This is my developer portfolio!
           
-**DEMO: https://ali-row.github.io/portfolio/**
+**Check it out here: https://ali-row.github.io/portfolio/**
   
   
      
