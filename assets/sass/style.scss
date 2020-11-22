@@ -142,6 +142,7 @@ button:focus {
   border-color: $contentColor;
   color: $contentColor;
   font-family: $spaceMono;
+  border-radius: 11px !important;
 }
 .custom-btn:hover {
   border-color: $accent;
@@ -181,6 +182,17 @@ button:focus {
 }
 .border-rounded {
   border-radius: 75px !important;
+}
+.img-rounded-top {
+  border-top-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+}
+.img-rounded-bottom {
+  border-bottom-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+}
+.card-rounded {
+  border-radius: 25px !important;
 }
 footer {
   background: $darkColor;
