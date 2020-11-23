@@ -180,7 +180,7 @@ button:focus {
 .dark {
   background: $darkColor;
 }
-.border-rounded {
+.border-rounded, .resume-rounded {
   border-radius: 75px !important;
 }
 .img-rounded-top {
@@ -194,6 +194,7 @@ button:focus {
 .card-rounded {
   border-radius: 25px !important;
 }
+
 footer {
   background: $darkColor;
   padding: 40px;
@@ -258,6 +259,10 @@ footer {
     font-size: 6vmax;
   }
 
+  .resume-rounded {
+    border-radius: 65px !important;
+  }
+
   .experience-wrapper,
   footer {
     border: none !important;
@@ -281,6 +286,9 @@ footer {
   }
   .macbook-code {
     height: 380px !important;
+  }
+  .resume-rounded {
+    border-radius: 55px !important;
   }
 }
 

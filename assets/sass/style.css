@@ -219,7 +219,7 @@ button:focus {
   background: #06060b !important;
 }
 
-.border-rounded {
+.border-rounded, .resume-rounded {
   border-radius: 75px !important;
 }
 
@@ -300,6 +300,10 @@ body {
     font-size: 6vmax;
   }
 
+  .resume-rounded {
+    border-radius: 65px !important;
+  }
+
   .experience-wrapper,
 footer {
     border: none !important;
@@ -325,6 +329,10 @@ footer {
 
   .macbook-code {
     height: 380px !important;
+  }
+
+  .resume-rounded {
+    border-radius: 55px !important;
   }
 }
 @media screen and (max-width: 376px) {
