@@ -270,6 +270,22 @@ footer {
 }
 
 @media screen and (max-width: 417px) {
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 0rem;
+    padding-top: 1rem;
+
+  }
+  .experience-img {
+    max-width: 5rem !important;
+    border-radius: .2rem;
+  }
+  .experience-btn {
+    text-align: center !important; 
+  }
   .big-font {
     font-size: 5vmax;
   }
@@ -293,12 +309,18 @@ footer {
 }
 
 @media screen and (max-width: 376px) {
+  .experience-img {
+    max-width: 4rem !important;
+  }
   .project-card {
     height: 630px !important;
   }
 }
 
 @media screen and (max-width: 350px) {
+  .experience-img {
+    max-width: 3.8rem !important;
+  }
   .big-font {
     font-size: 4vmax;
   }

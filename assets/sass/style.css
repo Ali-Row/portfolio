@@ -310,6 +310,31 @@ footer {
   }
 }
 @media screen and (max-width: 417px) {
+  .experience-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    text-align: center;
+    padding: 0rem;
+    padding-top: 1rem;
+  }
+
+  .experience-img {
+    max-width: 5rem !important;
+    border-radius: 0.2rem;
+  }
+
+  .experience-btn {
+    text-align: center !important;
+  }
+
   .big-font {
     font-size: 5vmax;
   }
@@ -336,11 +361,19 @@ footer {
   }
 }
 @media screen and (max-width: 376px) {
+  .experience-img {
+    max-width: 4rem !important;
+  }
+
   .project-card {
     height: 630px !important;
   }
 }
 @media screen and (max-width: 350px) {
+  .experience-img {
+    max-width: 3.8rem !important;
+  }
+
   .big-font {
     font-size: 4vmax;
   }
