@@ -291,6 +291,10 @@ footer {
 }
 
 @media screen and (max-width: 417px) {
+  .experience-main, .bullet-points {
+    padding: 0rem !important;
+    margin: 0rem auto !important;
+  }
   .experience-container {
     display: flex;
     flex-direction: column;

@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-  background: rgba(6, 6, 11, 0.95);
+  background: rgba(6, 6, 11, 0.935);
   -webkit-box-shadow: 0 6px 14px -8px #050505;
           box-shadow: 0 6px 14px -8px #050505;
 }
@@ -330,6 +330,11 @@ footer {
   }
 }
 @media screen and (max-width: 417px) {
+  .experience-main, .bullet-points {
+    padding: 0rem !important;
+    margin: 0rem auto !important;
+  }
+
   .experience-container {
     display: -webkit-box;
     display: -ms-flexbox;
