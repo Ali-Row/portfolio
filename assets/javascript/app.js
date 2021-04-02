@@ -56,6 +56,6 @@ $(document).ready(() => {
     // Toggle class on navbar when scrolling
     $(document).scroll(function () {
       let nav = $(".navbar");
-      nav.toggleClass('scrolled', $(this).scrollTop() > nav.height() * 19);
+      nav.toggleClass('scrolled', $(this).scrollTop() > nav.height() * 20);
     });
 });

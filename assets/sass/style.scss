@@ -20,7 +20,7 @@ body {
   margin: 0px;
 }
 nav {
-  background: rgba(6, 6, 11, 0.975);
+  background: rgba(6, 6, 11, 0.935);
   box-shadow: 0 6px 14px -8px rgb(5, 5, 5);
 }
 h1 {
@@ -61,6 +61,24 @@ button:focus {
 .navbar.scrolled {
   background-color: rgba(10, 25, 47, 0.985) !important;
   transition: background-color 200ms linear;
+}
+.img-accent {
+  padding: 2rem;
+  height: 24.5rem;
+  width: 24.5rem;
+  border-radius: 100rem;
+  background: 
+  linear-gradient(
+    to bottom,
+    rgb(100, 255, 218),
+    rgb(58, 18, 151)
+  );
+  position: absolute;
+}
+.self-img {
+  z-index: 3 !important;
+  position: relative;
+  border: double .4rem rgb(115, 104, 141);
 }
 .ul-style {
   margin: 0.25em;
@@ -255,6 +273,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .img-accent {
+    display: none;
+  }
   .big-font {
     font-size: 6vmax;
   }
@@ -270,6 +291,22 @@ footer {
 }
 
 @media screen and (max-width: 417px) {
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 0rem;
+    padding-top: 1rem;
+
+  }
+  .experience-img {
+    max-width: 5rem !important;
+    border-radius: .2rem;
+  }
+  .experience-btn {
+    text-align: center !important; 
+  }
   .big-font {
     font-size: 5vmax;
   }
@@ -293,12 +330,18 @@ footer {
 }
 
 @media screen and (max-width: 376px) {
+  .experience-img {
+    max-width: 4rem !important;
+  }
   .project-card {
     height: 630px !important;
   }
 }
 
 @media screen and (max-width: 350px) {
+  .experience-img {
+    max-width: 3.8rem !important;
+  }
   .big-font {
     font-size: 4vmax;
   }
