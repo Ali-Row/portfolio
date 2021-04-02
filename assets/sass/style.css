@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-  background: rgba(6, 6, 11, 0.975);
+  background: rgba(6, 6, 11, 0.95);
   -webkit-box-shadow: 0 6px 14px -8px #050505;
           box-shadow: 0 6px 14px -8px #050505;
 }
@@ -67,6 +67,22 @@ button:focus {
   background-color: rgba(10, 25, 47, 0.985) !important;
   -webkit-transition: background-color 200ms linear;
   transition: background-color 200ms linear;
+}
+
+.img-accent {
+  padding: 2rem;
+  height: 24.5rem;
+  width: 24.5rem;
+  border-radius: 100rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#64ffda), to(#3a1297));
+  background: linear-gradient(to bottom, #64ffda, #3a1297);
+  position: absolute;
+}
+
+.self-img {
+  z-index: 3 !important;
+  position: relative;
+  border: double 0.4rem #73688d;
 }
 
 .ul-style {
@@ -296,6 +312,10 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
+  .img-accent {
+    display: none;
+  }
+
   .big-font {
     font-size: 6vmax;
   }

@@ -20,7 +20,7 @@ body {
   margin: 0px;
 }
 nav {
-  background: rgba(6, 6, 11, 0.975);
+  background: rgba(6, 6, 11, 0.935);
   box-shadow: 0 6px 14px -8px rgb(5, 5, 5);
 }
 h1 {
@@ -61,6 +61,24 @@ button:focus {
 .navbar.scrolled {
   background-color: rgba(10, 25, 47, 0.985) !important;
   transition: background-color 200ms linear;
+}
+.img-accent {
+  padding: 2rem;
+  height: 24.5rem;
+  width: 24.5rem;
+  border-radius: 100rem;
+  background: 
+  linear-gradient(
+    to bottom,
+    rgb(100, 255, 218),
+    rgb(58, 18, 151)
+  );
+  position: absolute;
+}
+.self-img {
+  z-index: 3 !important;
+  position: relative;
+  border: double .4rem rgb(115, 104, 141);
 }
 .ul-style {
   margin: 0.25em;
@@ -255,6 +273,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .img-accent {
+    display: none;
+  }
   .big-font {
     font-size: 6vmax;
   }
