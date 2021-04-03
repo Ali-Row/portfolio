@@ -147,7 +147,17 @@ button:focus {
   height: 135px !important;
 }
 
-.project-card, .experience-img {
+.fa-github,
+.fa-linkedin-in,
+.fa-codepen,
+.fa-instagram,
+.fa-twitter {
+  -webkit-transition: all 80ms ease-in-out !important;
+  transition: all 80ms ease-in-out !important;
+}
+
+.project-card,
+.experience-img {
   -webkit-transition: all 150ms ease-in-out !important;
   transition: all 150ms ease-in-out !important;
 }
@@ -256,6 +266,26 @@ button:focus {
 
 .card-rounded {
   border-radius: 25px !important;
+}
+
+.fa-github:hover {
+  color: #64ffda !important;
+}
+
+.fa-linkedin-in:hover {
+  color: #64c9ff !important;
+}
+
+.fa-codepen:hover {
+  color: #53a8dd !important;
+}
+
+.fa-instagram:hover {
+  color: #7252bd !important;
+}
+
+.fa-twitter:hover {
+  color: #6d3be0 !important;
 }
 
 footer {
