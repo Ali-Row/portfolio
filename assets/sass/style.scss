@@ -128,11 +128,14 @@ button:focus {
 .card-text {
   height: 135px !important;
 }
-.project-card {
+.project-card, .experience-img {
   transition: all 150ms ease-in-out !important;
 }
 .project-card:hover {
   transform: scale(1.02) !important;
+}
+.experience-img:hover {
+  transform: scale(1.1) !important;
 }
 .skew {
   transform: $skew;
@@ -306,7 +309,6 @@ footer {
   }
   .experience-img {
     max-width: 5rem !important;
-    border-radius: .2rem;
   }
   .experience-btn {
     text-align: center !important; 
